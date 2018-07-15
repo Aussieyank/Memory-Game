@@ -53,7 +53,7 @@ function shuffle(array) {
      var deck = document.querySelector('.deck');
      /*calls HTML from function generateCard above*/
      /*map translates array into something else-here it's turned into HTML string*/
-     var cardHTML = cards.map(function(card){
+     var cardHTML = cards.map(function(card) {
          return generateCard(card);
      });
      /*turns map above into chunk to pop into game card that is currently missing the grid*/
